@@ -1,6 +1,6 @@
-FROM python:3.10.8
+FROM python:3.11.9
 
-RUN pip install --no-cache-dir gunicorn==20.1.0
+RUN pip install --no-cache-dir gunicorn==22.0.0
 
 WORKDIR /app/
 
